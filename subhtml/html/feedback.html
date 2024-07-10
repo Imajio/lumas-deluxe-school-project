@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link rel="icon" type="image/x-icon" href="../../media/401-logo.png">
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source id="bgvideo" type="video/mp4" src="../../media/elevators.mp4">
+    </video>
+    
+    <!-- HEADER -->
+
+    <nav>
+        <img src="../../media/401-logo.png" class="logo">
+        <div id="bgButtonOut" class="theme-button-light">
+            <div id="bgButtonIn" class="theme-button-little-light" onclick="changeVideoSource()"></div>
+        </div>
+
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="prom.html">Our Promotions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN   -->
+
+    <div class="hero">
+        <div class="bad" onclick="gratsAll()">
+            <img src="../../media/sad-face.png" alt="">
+            <button>Bad</button>
+        </div>
+        <div class="mid" onclick="gratsAll()">
+            <img src="../../media/happy.png" alt="">
+            <button>NaN</button>
+        </div>
+        <div class="good" onclick="gratsAll()">
+            <img src="../../media/happiness.png" alt="">
+            <button>Bellisimo!</button>
+        </div>
+    </div>
+
+    <div class="thx-wdw">Thank you for your opinion!</div>
+
+    <script src="../js/feedback.js"></script>
+</body>
+
+</html>

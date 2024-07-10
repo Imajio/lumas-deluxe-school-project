@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/x-icon" href="../../media/401-logo.png">
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source id="bgvideo" type="video/mp4" src="../../media/elevators.mp4">
+    </video>
+    
+
+    <nav>
+        <img src="../../media/401-logo.png" class="logo">
+        <div id="bgButtonOut" class="theme-button-light">
+            <div id="bgButtonIn" class="theme-button-little-light" onclick="changeVideoSource()"></div>
+        </div>
+
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="prom.html">Our Promotions</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="hero">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </form>
+            </div>
+            <button type="submit" class="contact-form-button">Submit</button>
+    </div>
+
+    <script src="../js/feedback.js"></script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/x-icon" href="../../media/401-logo.png">
+</head>
+
+<body>
+  
+    <nav>
+        <img src="../../media/401-logo.png" class="logo">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="prom.html">Our Promotions</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="hero">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/contact.js"></script>
+</body>
+
+</html> -->
